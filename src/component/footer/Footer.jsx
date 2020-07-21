@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/Kano180'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/kane-robinson-viz360/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/maxbigwood/'},
+    {Social: <FaTwitter /> , link: 'https://twitter.com/KaneTRobinson'},
 ]
 class Footer extends Component{
     render(){
@@ -17,10 +17,10 @@ class Footer extends Component{
                             <div className="col-lg-6">
                                 <div className="footer-left">
                                     <div className="inner">
-                                        <span>Ready To Do This</span>
-                                        <h2>Let's get <br /> to work</h2>
+                                        <span>I'm so busy these days</span>
+                                        <h2>I need a <br /> call centre </h2>
                                         <a className="rn-button-style--2" href="/contact">
-                                            <span>Contact Us</span>
+                                            <span>..not quite. Get in touch!</span>
                                         </a>
                                     </div>
                                 </div>
@@ -31,11 +31,11 @@ class Footer extends Component{
                                         {/* Start Single Widget  */}
                                         <div className="col-lg-6 col-sm-6 col-12">
                                             <div className="footer-link">
-                                                <h4>Quick Link</h4>
+                                                <h4>Popular Links</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="/portfolio">Work</a></li>
-                                                    <li><a href="/about">About</a></li>
-                                                    <li><a href="/contact">Let's Talk</a></li>
+                                                    <li><a href="https://github.com/Kane-R">GitHub</a></li>
+                                                    <li><a href="https://www.linkedin.com/in/kane-robinson-viz360/">Linkedin</a></li>
+                                                    <li><a href="https://www.facebook.com/Kano180">Facebook</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -43,10 +43,10 @@ class Footer extends Component{
                                         {/* Start Single Widget  */}
                                         <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
                                             <div className="footer-link">
-                                                <h4>Say Hello</h4>
+                                                <h4>Emails & Socials</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="mailto:admin@example.com">admin@example.com</a></li>
-                                                    <li><a href="mailto:hr@example.com">hr@example.com</a></li>
+                                                    <li><a href="mailto:kane@kanestrades.com">kane@kanestrades.com</a></li>
+                                                    <li><a href="mailto:kanerobinson2080@gmail.com">kanerobinson2080@gmail.com</a></li>
                                                 </ul>
 
                                                 <div className="social-share-inner">
@@ -62,7 +62,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2020 Rainbow-Themes. All Rights Reserved.</p>
+                                                <p>Copyright © 2020 Kane Robinson. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>

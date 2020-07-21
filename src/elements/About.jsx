@@ -1,27 +1,27 @@
 import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
+import ScrollToTop from 'react-scroll-up';
 import Breadcrumb from "../elements/common/Breadcrumb";
 import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
 import BrandTwo from "../elements/BrandTwo";
 import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
-import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import Header from "../component/header/HeaderFour";
 import Footer from "../component/footer/Footer";
+import PageHelmet from "../component/common/Helmet";
 
 
 class About extends Component{
     render(){
-        let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.';
+        let title = 'Kane Robinson',
+        description = 'Background as a Civil Engineer, Project Manager, and now Full-Stack Web Developer. Has what it takes to become an important part in growing any company commit to.';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'About'}   />
+                {/* <Breadcrumb title={'About'}   /> */}
                 {/* End Breadcrump Area */}
 
                 {/* Start About Area  */}
@@ -43,14 +43,14 @@ class About extends Component{
                                         <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">Education</h3>
+                                                    <p>1999-COMPLETED YEAR 12<br />2004-ADVANCED DIMPLOMA<br />(CIVIL/STRUCTURAL ENGINEERING)<br />2020-UWA FULL-STACK BOOTCAMP <br /></p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">Employment</h3>
+                                                    <p>Site Engineer<br />superdraft.com.au<br />viz360.COM<br />KanesTrades.com<br /></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -68,7 +68,7 @@ class About extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <h3 className="fontWeight500">Our Fun Facts</h3>
+                                    <h3 className="fontWeight500">numbers of the day</h3>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ class About extends Component{
                 {/* End CounterUp Area */}
 
                 {/* Start Finding Us Area  */}
-                <div className="rn-finding-us-area rn-finding-us bg_color--1">
+                {/* <div className="rn-finding-us-area rn-finding-us bg_color--1">
                     <div className="inner">
                         <div className="content-wrapper">
                             <div className="content">
@@ -93,11 +93,11 @@ class About extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Finding Us Area  */}
 
                 {/* Start Team Area  */}
-                <div className="rn-team-area bg_color--1 ptb--120">
+                {/* <div className="rn-team-area bg_color--1 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -107,10 +107,10 @@ class About extends Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row"> */}
                             
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
@@ -125,11 +125,11 @@ class About extends Component{
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
@@ -144,11 +144,11 @@ class About extends Component{
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
@@ -163,24 +163,24 @@ class About extends Component{
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
-                        </div>
+                        {/* </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Team Area  */}
 
                 {/* Start Testimonial Area */}
-                <div className="rn-testimonial-area bg_color--5 ptb--120">
+                {/* <div className="rn-testimonial-area bg_color--5 ptb--120">
                     <div className="container">
                         <Testimonial />
                     </div>
-                </div>
+                </div> */}
                 {/* End Testimonial Area */}
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -188,7 +188,7 @@ class About extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
 
                 {/* Start Back To Top */}

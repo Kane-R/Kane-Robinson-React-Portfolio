@@ -1,7 +1,7 @@
 import React from 'react'
 import ScrollToTop from 'react-scroll-up';
 import TextLoop from "react-text-loop";
-import FooterTwo from "../component/footer/FooterTwo";
+import Footer from "../component/footer/Footer";
 import { FiChevronUp} from "react-icons/fi";
 import Header from "../component/header/HeaderFour";
 import TabThree from "../elements/tab/TabThree";
@@ -69,7 +69,7 @@ const DesignerPortfolio = () => {
             {/* End Designer Portfolio  */}
 
             {/* Start Footer Style  */}
-            <FooterTwo />
+            <Footer />
             {/* End Footer Style  */}
             
             {/* Start Back To Top */}

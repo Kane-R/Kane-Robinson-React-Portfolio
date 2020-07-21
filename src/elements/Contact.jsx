@@ -6,7 +6,7 @@ import ContactTwo from "../elements/contact/ContactTwo";
 import BrandTwo from "../elements/BrandTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import Header from "../component/header/HeaderFour";
 import Footer from "../component/footer/Footer";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -28,7 +28,7 @@ class Contact extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                  {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
+                 {/* <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -39,25 +39,25 @@ class Contact extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Breadcrump Area */}
 
 
                 {/* Start Contact Top Area  */}
                 <div className="rn-contact-top-area ptb--120 bg_color--5">
+                    {/* <div<p>hello> </p></div> */}
                     <div className="container">
-                       
+                      
                         <div className="row">
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="rn-address">
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12"><div className="rn-address">
                                     <div className="icon">
                                         <FiHeadphones />
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel:+057 254 365 456">+057 254 365 456</a></p>
-                                        <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p>
+                                        <h4 className="title">Call me</h4>
+                                        <p><a href="tel:+61 433 788 ###">+61 433 788 ###</a></p>
+                                        {/* <p><a href="tel:+61 555 5555">+856 325 652 984</a></p> */}
                                     </div>
                                 </div>
                             </div>
@@ -70,9 +70,9 @@ class Contact extends Component{
                                         <FiMail />
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                        <h4 className="title">Email me</h4>
+                                        <p><a href="mailto:kane@kanestrades.com">kane@kanestrades.com</a></p>
+                                        {/* <p><a href="mailto:example@gmail.com">example@gmail.com</a></p> */}
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                        <p>Perth Western Australia</p>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ class Contact extends Component{
                 {/* End Contact Page Area  */}
 
                 {/* Start Contact Map  */}
-                <div className="rn-contact-map-area position-relative">
+                {/* <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
                         <GoogleMapReact
                         defaultCenter={this.props.center}
@@ -117,12 +117,12 @@ class Contact extends Component{
                         />
                         </GoogleMapReact>
                     </div>
-                </div>
+                </div> */}
                 {/* End Contact Map  */}
                 
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -130,7 +130,7 @@ class Contact extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
 
                 {/* Start Back To Top */}

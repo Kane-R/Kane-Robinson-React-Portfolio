@@ -119,14 +119,20 @@ class HeaderFour extends Component{
                             </ul>
                         </nav>
                         <div className="header-btn">
-                            <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
-                                <span>GITHUB</span>
+                            <a className="rn-btn" href="https://github.com/Kane-R">
+                                <span>GitHub</span>
                             </a>
                         </div>
                         
                         <div className="header-btn">
-                            <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
-                                <span>CONTACT</span>
+                            <a className="rn-btn" href="https://www.linkedin.com/in/kane-robinson-viz360/">
+                                <span>Linkedin</span>
+                            </a>
+                        </div>
+
+                        <div className="header-btn">
+                            <a className="rn-btn" href="/assets/images/Kane Robinson CV.pdf">
+                                <span>Resume</span>
                             </a>
                         </div>
 
